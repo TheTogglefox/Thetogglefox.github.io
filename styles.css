@@ -25,6 +25,6 @@ body {
     margin: 10px 0;
     text-align: right;
     color: #fff; /* Ensure input text color is white */
-    background: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background to inputs */
+    background: rgba(237, 231, 225 1); /* Add a semi-transparent background to inputs */
     border: 1px solid #fff; /* Optional: Add border to inputs */
 }
