@@ -14,7 +14,7 @@ body {
 
 .text-section {
     text-align: right;
-    background: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background */
+    background: rgba(237, 231, 225 1); /* Add a semi-transparent background */
     padding: 10px; /* Add padding for better readability */
     border-radius: 5px; /* Optional: Add rounded corners */
     color: #fff; /* Ensure text color is white */
