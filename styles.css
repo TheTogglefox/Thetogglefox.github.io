@@ -1,7 +1,33 @@
 body {
-    background-image: url('images/forest.jpeg'); /* Set the background image */
+    background-image: url('Forest.jpeg'); /* Set the background image */
     background-size: cover; /* Cover the entire background */
     background-repeat: no-repeat; /* Do not repeat the background image */
     background-position: center center; /* Center the background image */
     color: #fff; /* Set text color to be readable over the background */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image-section {
+    margin-right: 20px; /* Adjust spacing as needed */
+}
+
+.text-section {
+    text-align: right;
+    background: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background */
+    padding: 10px; /* Add padding for better readability */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    color: #fff; /* Ensure text color is white */
+}
+
+.input-section input {
+    display: block;
+    margin: 10px 0;
+    text-align: right;
+    color: #fff; /* Ensure input text color is white */
+    background: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background to inputs */
+    border: 1px solid #fff; /* Optional: Add border to inputs */
 }
