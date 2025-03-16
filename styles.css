@@ -1,0 +1,26 @@
+body {
+    background-color: #f0f0f0; /* Set a background color */
+    background-image: url('path/to/your/background-image.jpg'); /* Set a background image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-position: center center; /* Center the background image */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image-section {
+    margin-right: 20px; /* Adjust spacing as needed */
+}
+
+.text-section {
+    text-align: right;
+}
+
+.input-section input {
+    display: block;
+    margin: 10px 0;
+    text-align: right;
+}
