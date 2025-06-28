@@ -1,20 +1,184 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WellTogglefox</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToggleFox – Offizielle Seite</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #1e1e2f, #3a3a52);
+      color: #ffffff;
+    }
+
+    header {
+      padding: 100px 20px 60px;
+      text-align: center;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.6), transparent);
+    }
+
+    header h1 {
+      font-size: 4rem;
+      font-weight: 800;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+    nav {
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+
+    nav a:hover {
+      color: #ff6a00;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #ff6a00;
+    }
+
+    .text {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #e0e0e0;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 40px auto 0;
+      padding: 12px 30px;
+      background-color: #ff6a00;
+      color: white;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #e55d00;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 16px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: rgba(0, 0, 0, 0.3);
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
-    <h1>Willkommen auf WellTogglefox's Website!</h1>
-    <p>Diese Seite ist gehostet mit GitHub Pages.</p>
+
+  <header>
+    <h1>ToggleFox</h1>
+    <p>Willkommen auf der offiziellen Website von ToggleFox</p>
+    <a href="#about" class="btn">Mehr über mich</a>
+  </header>
+
+  <nav>
+    <a href="#about">Über mich</a>
+    <a href="#projects">Projekte</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+
+  <section id="about">
+    <h2>Über ToggleFox</h2>
+    <p class="text">
+      ToggleFox ist ein leidenschaftlicher Entwickler mit Sinn für Design, Performance und Qualität. 
+      Er bevorzugt klare Strukturen, smarte Ideen und stylische Umsetzungen – keine kitschigen Sachen, sondern durchdachte Konzepte.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projekte</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Projekt Alpha</h3>
+        <p>Ein Server-Tool für Echtzeit-Performance mit Clean UI.</p>
+      </div>
+      <div class="card">
+        <h3>WebsiteX</h3>
+        <p>Modernes Webinterface für kleine Community-Projekte mit Fokus auf Design.</p>
+      </div>
+      <div class="card">
+        <h3>ToolboxFox</h3>
+        <p>Mini-Tools für Devs – leicht, schnell, funktional.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontakt</h2>
+    <p class="text">
+      Du willst mit ToggleFox zusammenarbeiten oder Feedback hinterlassen?<br>
+      Schreib einfach an: <strong>kontakt@togglefox.dev</strong>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 ToggleFox. Alle Rechte vorbehalten.
+  </footer>
+
 </body>
 </html>
-
